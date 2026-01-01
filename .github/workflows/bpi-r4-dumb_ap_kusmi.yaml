@@ -159,9 +159,9 @@ jobs:
         with:
           files: bin/targets/mediatek/filogic/*
           tag_name: ${{ env.RELEASE_PREFIX }}-${{ env.REMOTE_BRANCH }}-${{ env.RELEASE_DATE }}
-          name: OpenWRT BPI-R4 + MLO + main_router packages + GCC15 + EEPROM Fix - ${{ env.REMOTE_BRANCH }} - ${{ env.RELEASE_DATE }}
+          name: OpenWRT BPI-R4 + MLO + dumb_ap packages + GCC15 + EEPROM Fix - ${{ env.REMOTE_BRANCH }} - ${{ env.RELEASE_DATE }}
           body: |
-            Updated prebuilt images with main_router packages, patch for EEPROM low power issue  build with GCC14 - ${{ env.RELEASE_DATE }},
+            Updated prebuilt images with dumb_ap packages, patch for EEPROM low power issue  build with GCC15 - ${{ env.RELEASE_DATE }},
             Build Commit: ${{ needs.check_commits.outputs.latest_commit_sha }}
 
       - name: Clean up old releases
