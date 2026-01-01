@@ -1,5 +1,5 @@
 ---
-name: BPI-R4 + main_router packages + GCC15
+name: kusmi - BPI-R4 + main_router packages + GCC15
 
 on:
   workflow_dispatch:
