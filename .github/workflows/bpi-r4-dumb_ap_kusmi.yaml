@@ -1,5 +1,5 @@
 ---
-name: kusmi - BPI-R4 + dumb-AP packages + GCC15
+name: kusmi - BPI-R4 + dumb_AP packages + GCC15
 
 on:
   workflow_dispatch:
