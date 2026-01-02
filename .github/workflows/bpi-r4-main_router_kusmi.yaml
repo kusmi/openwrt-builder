@@ -126,7 +126,7 @@ jobs:
       
       - name: Build the firmware image
         # run: make -j1 V=s defconfig download world
-        run: make -j $(nproc) defconfig download world
+        run: make -j1 V=s $(nproc) defconfig download world
 
       - name: Package output
         run: tar -cvf bpi_r4-images.tar bin/targets/mediatek/filogic
