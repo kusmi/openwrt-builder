@@ -1,6 +1,5 @@
 # Adding SAMBA for time machine
 CONFIG_PACKAGE_luci-app-samba4=y
-CONFIG_PACKAGE_samba4-server=y
 CONFIG_PACKAGE_kmod-fs-ext4=y
 CONFIG_PACKAGE_luci-app-hd-idle=y
 CONFIG_PACKAGE_kmod-usb3=y
